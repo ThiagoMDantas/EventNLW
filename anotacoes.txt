@@ -1,0 +1,48 @@
+---------------------------------------------
+	Anotações de estudo
+---------------------------------------------
+
+
+JSX - JavaScript + XML 
+	Permite escrição de html dentro do javascript
+
+TSX - TypeScript + XML
+	Permite escrição de html dentro do TypeScript(biblioteca do javascript)
+
+
+Componente 
+	Funcões js que retornam um html
+	Podem receber objetos ou uma propriedade desestruturada
+	Ex: 
+	function Button(props:ButtonProps){
+		console.log(props.text)
+	} (Componente Button que recebe uma propriedade de um objeto do tipo ButtonProps)
+	ou 
+	function Button({text}) recebe diretamente a propriedade 
+	
+	Sempre nome da função com a primeira letra maiuscula e no nome do arquivo
+	No nome do arquivo não é necessário letra maiuscula, porém no nome da function sim, pois
+	há tags padrões de html com nome minusculo
+		Ex: function App(){
+			<Button/> //component que pode retornar qualquer html
+			<button/> // tag botão padrão html
+		}
+			App.tsx
+
+No React os atributos são chamados de Propriedades 
+	EX: <div name = 'atributo'></div> (div com atributo name)
+	
+	Normalmente quando passamos propriedades para um Componente usamos uma interface para definir o tipo de dado esperado
+	por exemplo no Componente function Button(props:ButtonProps)
+	Passamos o props como um tipo ButtonProps, esse ButtonProps é uma interface que define a tipagem de dados passado, ou seja, um modelo de objeto
+	Ex: interface ButtonProps{
+		text: 	string;
+		name?:	string;
+		
+	}
+	Assim dizemos que o Componente Button espera um objeto do tipo ButtonProps com as propriedades text e nome que é do tipo string, porém o nome é uma propriedade opcional 
+	(?: determina opcional)
+	
+	
+	
+	
