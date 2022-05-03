@@ -30,7 +30,7 @@ Componente
 			App.tsx
 
 No React os atributos são chamados de Propriedades 
-	EX: <div name = 'atributo'></div> (div com atributo name)
+	EX: <div text = 'atributo'></div> (div com atributo text)
 	
 	Normalmente quando passamos propriedades para um Componente usamos uma interface para definir o tipo de dado esperado
 	por exemplo no Componente function Button(props:ButtonProps)
@@ -43,6 +43,11 @@ No React os atributos são chamados de Propriedades
 	Assim dizemos que o Componente Button espera um objeto do tipo ButtonProps com as propriedades text e nome que é do tipo string, porém o nome é uma propriedade opcional 
 	(?: determina opcional)
 	
+CSS
+	padding:0.5rem; //rem medida relativa
 	
+	
+Estado
+	No react variaveis de estaado são variaveis que são monitoradas a todo estante para que quando ela seja alterada o componente seja recarregado com o novo valor 
 	
 	
