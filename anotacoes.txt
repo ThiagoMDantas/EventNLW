@@ -49,5 +49,7 @@ CSS
 	
 Estado
 	No react variaveis de estaado são variaveis que são monitoradas a todo estante para que quando ela seja alterada o componente seja recarregado com o novo valor 
+	Para a utilização de variaveis de estado deve ser feita a criação por meio da biblioteca useState
+	import { useState } from 'react';
 	
 	
