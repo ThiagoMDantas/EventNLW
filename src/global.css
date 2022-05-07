@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply bg-[#09090A] text-zinc-100
+}
 
 .buttostyle {
   @apply bg-[#000] p-2 rounded text-violet-200;
