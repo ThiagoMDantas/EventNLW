@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { CloseButton } from "../CloseButton";
 
 
 //importação das imagens
